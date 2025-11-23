@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/mhassini/avec-maven.git'
+                git branch: 'main', url: 'https://github.com/anwar789456/avec-maven.git'
             }
         }
    
