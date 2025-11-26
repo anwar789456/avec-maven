@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo "Running factorial program..."
                 sh '''
-                    python3 factorial.py
+                    python3 fact.py
                 '''
             }
         }
