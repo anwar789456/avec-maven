@@ -13,5 +13,14 @@ pipeline {
                 echo 'Hello World'
             }
         }
+
+        stage('Run Python Program') {
+            steps {
+                echo "Running factorial program..."
+                sh '''
+                    python3 factorial.py
+                '''
+            }
+        }
     }
 }
